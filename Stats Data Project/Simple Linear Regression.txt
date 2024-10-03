@@ -1,0 +1,83 @@
+Simple linear regression is useful for examining or modelling the relationship between two numeric variables.
+-- We can also fit a simple linear regression using a categorical explanatory (X) variable
+
+Model the relationship between [Age] an [LungCap]
+[LungCap] is the outcome or dependent (Y) variable
+
+
+// produce a scatter plot of data plotting [Age]as x-axis and [LungCap] as y-axis
+plot(Age, LungCap, main = "Scatterplot")
+// Calcaulte the Pearson's correlation between Lung Capacity and Age
+cor(Age, LungCap)
+//There's a positive, fairly linear association between Age and Lung Capacity
+[1] 0.8196
+// Fit a linear regression and save it in the object: mod
+mod <- lm(LungCap ~ Age)     // 1st variable shold be y, 2nd is x variable
+// Sumary of this model 
+// returned a summary for the residuals(or errors), the estimate of the intercept,its standard error as well as the test statistic, and p-value for a hypothesis test that the intercepte is zero
+//we can also see the estimate the slope for Age, ...
+//The starts are used to identify significant coefficients.
+//Here we can see the residual standard error which is a measure of the variation of observations around the //regression line.(This is the same as the square root of the mean squared error or Root-MSE) 
+//We can also see the r-squared and adjusted r-squared, as well as the hypothesis test and p-value for a test that all the coefficients in the model are zero.
+summary(mod)
+// Ask for the attributes for our model
+//It will let us know which particular attributes are stored in this object mod
+attributes(mod)
+
+//We can extract certain attributes using the dollar sign ($)
+// for example, we may want to pull out the coefficients from our model
+mod$coefficients 
+coef(mod)
+
+// Add the regression line to the plot using "abline" command
+plot(Age, LungCap, main = "Scatterplot")
+abline(mod)
+
+//change teh line width and colour
+abline(mod, col=2, lwd=3)
+
+//---Add regression lines for multiple linear regressions with multiple variables
+
+//Confidence interval for model coefficients
+confint(mod)
+
+//change the level of confidence for these
+confint(mod, level=0.99)
+
+//Produce the ANOVA table for the linear regression model
+
+anova(mod)
+
+//Note that this ANOVA table corresponds to the f-test presented in the las row of the linear regressionn //summary
+//The Residual standard error of 1.526 presented in the linear regression summary is the same as the square root
+// of the mean squared error or mean squared residual from the ANOVA table
+
+sqrt(2.3)
+[1] 1.516575
+
+=========================================
+ --- Use R to fit simple linear regression models to model the mean of a variable as a linear function of an explanatory variables
+ --- Produce regression diagnostics in R and use them to assess simple linear regression model as assumptions
+
+
+cor(num, cite)
+fit <- lm(cite, num)
+summary(fit)
+lm(formula = cite ~ num)
+
+//Produce regression diagnostics in R
+//Add fitted line to scatterplot:
+plot(num, cite)
+abline(fit)
+// Produce residual plot:
+ plot(num, fit$residuals)
+ plot(fit$fitted.values, fit$residuals)
+
+// produce QQPlot of residuals
+qqnorm(fit$residuals)
+qqline(fit$residuals)
+
+//You can use plot function
+//Use par function to print these in one page
+par(mfrow=c(2,2))
+plot(fit)

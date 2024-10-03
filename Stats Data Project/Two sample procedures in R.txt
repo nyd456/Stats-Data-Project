@@ -1,0 +1,20 @@
+--- Use R to run t procedures to conduct inference on two population means
+
+t.test() requires both x and y
+t.test(standard, intensive, alternative="two.sided",  mu=0)
+
+--- User R to run large sample (approximate Z) procedures to conduct inference on two proportions 
+
+Large sample procedures for p1-p2
+# Large sample Z test and confidence interval for p1-p2 in R
+prop.test
+prop.test(c(96,128), c(252,258))
+
+================ YouTube ===============================================
+https://www.youtube.com/watch?v=RlhnNbPZC0A
+--------------------------------------------------------
+The independent two sample t-test and confidence interval are parametric methods appropriate for examining the difference in means for two populations. They can aslo be thought of as a way of examining the relationship between a numeric outcome or Y variable and a categorical explanatory or X variable.
+
+### Using t.text command to conduct the t-test
+
+#

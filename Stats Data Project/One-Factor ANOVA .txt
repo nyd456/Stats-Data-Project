@@ -1,0 +1,42 @@
+Target from class:
+--- Use R to run one-way ANOVA to compare more than two population means
+--- Use R to conduct Tukey HSD procedures and pairwise comparisons
+
+tapply
+aov()
+summary(anova1)
+
+pairwise.t.test
+---------------
+Follow-up Analyses
+Two sample t-tests for pairwise comparisons:
+pairwise.t.test()
+Tukey's HSD tests and confidence intervals:
+TukeyHSD()
+Generates P values and confidence inteverals for all possible pairwise populations when combining means of more than two populations. 
+
+==========================
+
+One Way Analysis of variance (ANOVA)
+
+ANOVA is a parametric method appropriate for comparing the Means for 2 or more independent populations
+
+We will expore the relateionship ??? Weight Loss crop Group. 
+
+We can conduct an analysis of variance using the "aov" command/function in R
+
+kruskal.test()
+
+---------------------------
+Conducting the Paired t-test and Confidence Interval using R
+
+The paired t-test and confidence interval in statistics are parametric methods appropriate for examining the difference in means for two populations that are paired or dependent on one another
+------------------------------------------------------------------------------------------
+Analyzing relationship between one X variable (Categorical/Factor), with independent group, and its effect on a Y variable(Numeric)
+
+Assumptions to wok with ANOVA:
+- SRS (Simple Random Sample), Independent observations
+- Independent groups
+- Roughly the same SD (standard deviations) of each group
+- Each group has large sample sizes (>20) or Groups are approximately normal
+--------------------------------------------------------

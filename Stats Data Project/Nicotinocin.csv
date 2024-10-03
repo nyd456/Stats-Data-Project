@@ -1,0 +1,101 @@
+Subect ,Group ,Age ,Sex ,Symptom Start Date ,Symptom Free Date,Days with Symptoms  
+1,Nicotinocin,23,Male,2021-04-14,2021-04-25,11
+2,Placebo,27,Male,2021-04-12,2021-04-25,13
+3,Placebo,20,Male,2021-04-12,2021-04-23,11
+4,Placebo,34,Male,2021-04-12,2021-04-24,12
+5,Placebo,24,Male,2021-04-12,2021-04-25,13
+6,Placebo,26,Female ,2021-04-14,2021-04-28,14
+7,Placebo,22,Male,2021-04-12,2021-04-29,17
+8,Placebo,38,Male,2021-04-12,2021-04-29,17
+9,Nicotinocin,46,Male,2021-04-12,2021-04-21,9
+10,Nicotinocin,19,Male,2021-04-12,2021-04-23,11
+11,Placebo,32,Female ,2021-04-12,2021-04-25,13
+12,Nicotinocin,20,Male,2021-04-12,2021-04-22,10
+13,Nicotinocin,19,Female ,2021-04-14,2021-04-23,9
+14,Placebo,26,Male,2021-04-12,2021-04-28,16
+15,Nicotinocin,22,Male,2021-04-13,2021-04-26,13
+16,Nicotinocin,42,Male,2021-04-12,2021-04-22,10
+17,Placebo,22,Female ,2021-04-13,2021-04-27,14
+18,Placebo,59,Male,2021-04-13,2021-04-27,14
+19,Nicotinocin,62,Male,2021-04-12,2021-04-22,10
+20,Nicotinocin,32,Male,2021-04-13,2021-04-25,12
+21,Placebo,28,Male,2021-04-12,2021-04-26,14
+22,Placebo,21,Male,2021-04-12,2021-04-28,16
+23,Placebo,25,Male,2021-04-12,2021-04-25,13
+24,Placebo,25,Male,2021-04-12,2021-04-30,18
+25,Placebo,21,Male,2021-04-14,2021-04-26,12
+26,Nicotinocin,23,Male,2021-04-12,2021-04-22,10
+27,Nicotinocin,25,Male,2021-04-12,2021-04-23,11
+28,Placebo,23,Female ,2021-04-13,2021-04-24,11
+29,Nicotinocin,25,Female ,2021-04-12,2021-04-22,10
+30,Placebo,25,Female ,2021-04-12,2021-04-29,17
+31,Nicotinocin,20,Female ,2021-04-12,2021-04-22,10
+32,Placebo,20,Female ,2021-04-12,2021-04-26,14
+33,Placebo,19,Female ,2021-04-12,2021-04-25,13
+34,Placebo,28,Female ,2021-04-13,2021-05-01,18
+35,Placebo,24,Male,2021-04-13,2021-04-22,9
+36,Nicotinocin,50,Male,2021-04-12,2021-04-22,10
+37,Placebo,25,Male,2021-04-12,2021-04-27,15
+38,Placebo,29,Female ,2021-04-12,2021-04-26,14
+39,Nicotinocin,53,Female ,2021-04-13,2021-04-27,14
+40,Nicotinocin,29,Male,2021-04-12,2021-04-28,16
+41,Placebo,20,Male,2021-04-12,2021-04-25,13
+42,Placebo,22,Female ,2021-04-12,2021-04-27,15
+43,Nicotinocin,18,Female ,2021-04-13,2021-04-21,8
+44,Placebo,41,Male,2021-04-12,2021-04-28,16
+45,Placebo,32,Male,2021-04-12,2021-04-25,13
+46,Nicotinocin,35,Female ,2021-04-12,2021-04-22,10
+47,Nicotinocin,24,Male,2021-04-13,2021-04-21,8
+48,Placebo,34,Female ,2021-04-12,2021-04-22,10
+49,Nicotinocin,24,Female ,2021-04-12,2021-04-22,10
+50,Placebo,31,Female ,2021-04-13,2021-04-27,14
+51,Placebo,44,Female ,2021-04-14,2021-04-25,11
+52,Placebo,34,Female ,2021-04-12,2021-04-26,14
+53,Nicotinocin,18,Female ,2021-04-13,2021-04-22,9
+54,Placebo,41,Male,2021-04-14,2021-04-26,12
+55,Nicotinocin,21,Female ,2021-04-14,2021-04-23,9
+56,Nicotinocin,43,Male,2021-04-14,2021-04-26,12
+57,Nicotinocin,21,Male,2021-04-12,2021-04-22,10
+58,Placebo,25,Female ,2021-04-12,2021-04-27,15
+59,Nicotinocin,26,Male,2021-04-12,2021-04-20,8
+60,Placebo,28,Male,2021-04-14,2021-04-30,16
+61,Placebo,61,Male,2021-04-12,2021-04-27,15
+62,Nicotinocin,19,Male,2021-04-12,2021-04-20,8
+63,Nicotinocin,26,Male,2021-04-12,2021-04-21,9
+64,Placebo,24,Male,2021-04-12,2021-04-27,15
+65,Nicotinocin,31,Male,2021-04-12,2021-04-24,12
+66,Placebo,20,Male,2021-04-14,2021-04-28,14
+67,Placebo,48,Female ,2021-04-12,2021-04-29,17
+68,Nicotinocin,25,Female ,2021-04-12,2021-04-23,11
+69,Placebo,38,Female ,2021-04-13,2021-04-28,15
+70,Placebo,23,Male,2021-04-14,2021-04-26,12
+71,Placebo,24,Female ,2021-04-12,2021-04-28,16
+72,Nicotinocin,24,Female ,2021-04-13,2021-04-23,10
+73,Nicotinocin,25,Male,2021-04-12,2021-04-24,12
+74,Nicotinocin,51,Male,2021-04-13,2021-04-23,10
+75,Nicotinocin,28,Female ,2021-04-12,2021-04-23,11
+76,Nicotinocin,22,Male,2021-04-12,2021-04-23,11
+77,Placebo,26,Female ,2021-04-13,2021-04-25,12
+78,Nicotinocin,48,Male,2021-04-12,2021-04-21,9
+79,Nicotinocin,40,Male,2021-04-12,2021-04-23,11
+80,Placebo,21,Male,2021-04-12,2021-04-25,13
+81,Nicotinocin,22,Female ,2021-04-12,2021-04-20,8
+82,Nicotinocin,45,Male,2021-04-12,2021-04-25,13
+83,Placebo,18,Male,2021-04-12,2021-04-28,14
+84,Nicotinocin,33,Male,2021-04-12,2021-04-23,11
+85,Nicotinocin,26,Female ,2021-04-13,2021-04-22,9
+86,Nicotinocin,27,Male,2021-04-12,2021-04-21,9
+87,Nicotinocin,20,Male,2021-04-14,2021-04-24,10
+88,Nicotinocin,42,Male,2021-04-13,2021-04-26,13
+89,Placebo,27,Female ,2021-04-12,2021-04-30,18
+90,Nicotinocin,27,Male,2021-04-14,2021-04-29,15
+91,Nicotinocin,49,Male,2021-04-14,2021-04-28,14
+92,Placebo,21,Male,2021-04-12,2021-04-28,16
+93,Placebo,31,Male,2021-04-14,2021-04-29,15
+94,Placebo,45,Female ,2021-04-12,2021-04-26,14
+95,Nicotinocin,30,Male,2021-04-12,2021-04-27,15
+96,Placebo,40,Male,2021-04-14,2021-04-29,15
+97,Nicotinocin,36,Male,2021-04-13,2021-04-26,12
+98,Nicotinocin,58,Male,2021-04-14,2021-04-23,9
+99,Nicotinocin,47,Female ,2021-04-12,2021-04-26,14
+100,Nicotinocin,24,Female ,2021-04-13,2021-04-25,12
